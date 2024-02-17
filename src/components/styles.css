@@ -1,0 +1,410 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Button styles */
+  .Button {
+    background-color: #4b5563;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Button:hover {
+    background-color: #2d3748;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 4rem 2rem;
+  }
+  
+  /* Card styles */
+  .Card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .Card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card content styles */
+  .CardContent {
+    text-align: center;
+  }
+  
+  /* Icon styles */
+  .icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #4b5563;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  /* Grid styles */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  /* Text styles */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-gray-600 {
+    color: #4a5568;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  /* Additional styles */
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .bg-indigo-50 {
+    background-color: #ebf4ff;
+  }
+  
+  .bg-indigo-100 {
+    background-color: #c3dafe;
+  }
+  
+  .bg-blue-50 {
+    background-color: #eff6ff;
+  }
+  
+  .bg-indigo-600 {
+    background-color: #4c51bf;
+  }
+  
+  .text-indigo-600 {
+    color: #805ad5;
+  }
+  
+  .hover\:text-indigo-600:hover {
+    color: #805ad5;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    margin-right: 1rem;
+    color: #ffffff;
+  }
+  
+  .space-x-4 > :not([hidden]):first-child {
+    margin-left: 0;
+    color: #ffffff;
+  }
+  
+  .space-x-4 > :not([hidden]):last-child {
+    margin-right: 0;
+  }
+  
+  .space-x-4 > * {
+    --space-x-reverse: 0;
+  }
+  
+  .space-x-4 > * {
+    margin-right: calc(1rem * var(--space-x-reverse));
+    margin-left: calc(1rem * (1 - var(--space-x-reverse)));
+  }
+  .WorkWithUs {
+  background-color: #f7fafc;
+  padding: 4rem 2rem;
+}
+
+.WorkWithUs h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2d3748;
+}
+
+.WorkWithUs .grid {
+  margin-top: 2rem;
+}
+
+.WorkWithUs .card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.WorkWithUs .card:hover {
+  transform: translateY(-5px);
+}
+
+.WorkWithUs .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #4a5568;
+}
+
+.WorkWithUs .card-text {
+  color: #4a5568;
+}
+/* CSS for the "Ever wondered what others think of you?" section */
+.ever-wondered-section {
+    background-color: #f0f7ff; /* Light blue background */
+    padding: 40px 20px; /* Padding */
+  }
+  
+  /* Title styling */
+  .ever-wondered-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px; /* Spacing below the title */
+  }
+  
+  /* Content styling */
+  .ever-wondered-content {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    padding: 20px; /* Padding inside the card */
+  }
+  
+  /* Text styling */
+  .ever-wondered-text {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px; /* Spacing below the text */
+  }
+  
+  /* Button styling */
+  .ever-wondered-button {
+    background-color: #6c63ff; /* Purple button background */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  .ever-wondered-button:hover {
+    background-color: #4f48cc; /* Darker purple on hover */
+  }
+  /* CSS for the navigation bar */
+.nav-bar {
+    background-color: #ffffff; /* White background */
+    border-bottom: 1px solid #e5e5e5; /* Gray border bottom */
+    padding: 12px 20px; /* Padding */
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Navigation links styling */
+  .nav-link {
+    color: #666666; /* Gray text color */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  /* Download button styling */
+  .download-button {
+    background-color: #6c63ff; /* Purple button background */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  .download-button:hover {
+    background-color: #4f48cc; /* Darker purple on hover */
+  }
+  /* CSS for the header section */
+.header {
+    text-align: center; /* Center align text */
+    padding: 40px 20px; /* Padding */
+  }
+  
+  /* Title styling */
+  .header-title {
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    color: #333333; /* Dark gray text color */
+  }
+  
+  /* Subtitle styling */
+  .header-subtitle {
+    margin-top: 20px; /* Spacing from title */
+    font-size: 1rem; /* Adjust font size */
+    color: #666666; /* Light gray text color */
+  }
+  
+  /* Image styling */
+  .header-image {
+    display: block; /* Ensure image is block-level element */
+    margin: 40px auto; /* Center image with margin */
+    width: 200px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .text-gray-600 {
+    color: #4b5563;
+  }
+  /* Footer container */
+footer {
+    background-color: #4c1d95; /* Indigo color */
+    color: #fff; /* White text color */
+    padding: 2rem;
+  }
+  
+  /* Grid layout for footer content */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+  }
+  
+  /* Logo styling */
+  .logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Links container */
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Link styling */
+  .links a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Small text at the bottom */
+  .text-sm {
+    font-size: 0.8rem; /* Adjust font size as needed */
+  }
+  
